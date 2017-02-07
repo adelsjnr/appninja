@@ -1,3 +1,4 @@
+name		 "elastic_ninja"
 maintainer       "theNinjas"
 maintainer_email "adesjnr@gmail.com"
 license          "All rights reserved"
