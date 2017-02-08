@@ -16,3 +16,11 @@ chef-solo -v
 
 # Install berksfile
 gem install berkshelf
+
+# Setting things up
+cd /vagrant
+bash -x make_pretty_chef.sh
+cd /tmp
+
+# Run chef-solo
+chef-solo -c solo.rb -j elastic.json
