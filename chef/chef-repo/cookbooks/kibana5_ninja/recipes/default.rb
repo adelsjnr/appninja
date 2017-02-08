@@ -6,5 +6,5 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe "add_repo"
-include_recipe "install"
+include_recipe "kibana5_ninja::add_repo"
+include_recipe "kibana5_ninja::install"

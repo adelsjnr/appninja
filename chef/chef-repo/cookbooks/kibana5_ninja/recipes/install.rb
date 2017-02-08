@@ -1,3 +1,3 @@
 apt_package 'kibana' do
-	action: install
+	action :install
 end
