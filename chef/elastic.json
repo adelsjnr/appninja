@@ -6,6 +6,16 @@
 			"accept_oracle_download_terms": true
 		}
 	},
+	"elasticsearch": {
+		"checksums": {
+			"5.2.0": {
+				"debian": "6f446164010bbfccd734484e2805e6c20b4d66d9b6125c0b157a47be22d8fe09"
+			}
+		},
+                "user": {
+                        "username": "ninja"
+                }
+	},
   	"run_list": [ 
 		"recipe[elastic_ninja]" 
 	]

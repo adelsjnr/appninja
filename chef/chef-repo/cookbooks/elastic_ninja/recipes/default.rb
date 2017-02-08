@@ -8,5 +8,7 @@
 #
 
 include_recipe "java"
-#include_recipe "elasticsearch"
-include_recipe "install_es_ninja"
+include_recipe "elastic_ninja::install"
+include_recipe "elastic_ninja::user"
+include_recipe "elastic_ninja::configure"
+include_recipe "elastic_ninja::service"
