@@ -1,5 +1,12 @@
 {
-  "run_list": [ 
-	"recipe[elastic_ninja]" 
+	"java" : {
+		"install_flavor": "oracle",
+		"jdk_version": "8",
+		"oracle": {
+			"accept_oracle_download_terms": true
+		}
+	},
+  	"run_list": [ 
+		"recipe[elastic_ninja]" 
 	]
 }
