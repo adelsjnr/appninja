@@ -34,7 +34,9 @@ We tried to use community cookbooks (reliable, maintened and well documented) as
 
 In a production architeture it's a good idea to take security in place. The ideal scenario is shipping logs in a encripted ssl connection between filebeat and elsticsearch, kibana and Elasticsearch and a shield plugin for autentication on a Kibana.
 
-Scaling As the production environment is designed to be created in a autoscale group, we can easily scale up nodes into elasticsearch cluster, in case of peak of logging.
+#### Scaling ####
+
+As the production environment is designed to be created in a autoscale group, we can easily scale up nodes into elasticsearch cluster, in case of peak of logging.
 
 ## Running the Elastic Stack  poc/dev. ##
 
