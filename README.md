@@ -65,7 +65,7 @@ And finally, to us be able view the log events we must to access **Kibana**.
 
 Access at your browser:
 
-http://localhost:5601
+[http://localhost:5601](http://localhost:5601)
 
 Kibana asks to set the **appropriate index name**.
 
